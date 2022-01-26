@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1390977449"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq &quot;-FiC:\Users\johnn\Documents\Projetos\API_LAZARUS\Servidor Horse\lib\x86_64-win64&quot; &quot;-FuC:\Users\johnn\Documents\Projetos\API_LAZARUS\Servidor Horse\modules\dataset-serialize\src&quot; &quot;-FuC:\Users\johnn\Documents\Projetos\API_LAZARUS\Servidor Horse\modules\horse\src&quot; &quot;-FuC:\Users\johnn\Documents\Projetos\API_LAZARUS\Servidor Horse\modules\jhonson\src&quot; -FuC:\lazarus\components\UniDAC\Lib\Lazarus1\x86_64-win64 -FuC:\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\johnn\Documents\Projetos\API_LAZARUS\Servidor Horse\&quot; &quot;-FUC:\Users\johnn\Documents\Projetos\API_LAZARUS\Servidor Horse\lib\x86_64-win64\&quot; &quot;-FEC:\Users\johnn\Documents\Projetos\API_LAZARUS\Servidor Horse\&quot; &quot;-oC:\Users\johnn\Documents\Projetos\API_LAZARUS\Servidor Horse\Servidor.exe&quot; Servidor.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>
