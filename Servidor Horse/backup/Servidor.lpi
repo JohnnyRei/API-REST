@@ -59,6 +59,11 @@
       <OtherUnitFiles Value="modules\dataset-serialize\src;modules\horse\src;modules\jhonson\src"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
+    </Linking>
   </CompilerOptions>
   <Debugging>
     <Exceptions>
@@ -70,6 +75,15 @@
       </Item>
       <Item>
         <Name Value="EFOpenError"/>
+      </Item>
+      <Item>
+        <Name Value="EResNotFound"/>
+      </Item>
+      <Item>
+        <Name Value="EOLEDBError"/>
+      </Item>
+      <Item>
+        <Name Value="EHTTP"/>
       </Item>
     </Exceptions>
   </Debugging>

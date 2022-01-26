@@ -8,10 +8,9 @@
       <Unit>
         <Filename Value="Servidor.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="6"/>
-        <CursorPos X="24" Y="15"/>
-        <UsageCount Value="36"/>
+        <TopLine Value="7"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -20,21 +19,20 @@
         <ComponentName Value="DataModule1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="22"/>
-        <CursorPos X="51" Y="48"/>
-        <UsageCount Value="36"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos Y="35"/>
+        <UsageCount Value="40"/>
       </Unit>
       <Unit>
         <Filename Value="controllers.view.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Controllers.View"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="12"/>
-        <CursorPos X="42" Y="21"/>
-        <UsageCount Value="36"/>
+        <CursorPos X="23" Y="46"/>
+        <UsageCount Value="40"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -44,61 +42,126 @@
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="13">
+    <JumpHistory HistoryIndex="29">
       <Position>
-        <Filename Value="u_dm.pas"/>
-      </Position>
-      <Position>
-        <Filename Value="u_dm.pas"/>
-        <Caret Line="10" Column="50"/>
-      </Position>
-      <Position>
-        <Filename Value="Servidor.lpr"/>
-        <Caret Line="11" Column="56"/>
-      </Position>
-      <Position>
-        <Filename Value="Servidor.lpr"/>
-        <Caret Line="5" Column="9"/>
-      </Position>
-      <Position>
-        <Filename Value="Servidor.lpr"/>
-        <Caret Line="6" Column="17"/>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="26" TopLine="15"/>
       </Position>
       <Position>
         <Filename Value="controllers.view.pas"/>
-        <Caret Column="23"/>
+        <Caret Line="27" TopLine="15"/>
       </Position>
       <Position>
-        <Filename Value="u_dm.pas"/>
-        <Caret Line="11" Column="74" TopLine="2"/>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="28" TopLine="15"/>
       </Position>
       <Position>
-        <Filename Value="u_dm.pas"/>
-        <Caret Line="12" Column="14" TopLine="3"/>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="29" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="31" Column="70" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="55" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="31" Column="21" TopLine="19"/>
       </Position>
       <Position>
         <Filename Value="Servidor.lpr"/>
-        <Caret Line="12" Column="7" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="u_dm.pas"/>
-        <Caret Line="51" Column="7" TopLine="35"/>
+        <Caret Line="19" TopLine="7"/>
       </Position>
       <Position>
         <Filename Value="controllers.view.pas"/>
-        <Caret Line="21" Column="44"/>
+        <Caret Line="52" TopLine="40"/>
       </Position>
       <Position>
         <Filename Value="controllers.view.pas"/>
-        <Caret Line="13" Column="12" TopLine="9"/>
+        <Caret Line="24" Column="48" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="controllers.view.pas"/>
-        <Caret Line="20" Column="46" TopLine="15"/>
+        <Caret Line="25" TopLine="16"/>
       </Position>
       <Position>
-        <Filename Value="Servidor.lpr"/>
-        <Caret Line="15" Column="24" TopLine="6"/>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="26" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="27" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="28" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="31" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="30" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="31" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="34" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="35" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="36" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="37" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="38" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="41" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="43" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="23" Column="27" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="41" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="22" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="43" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="44" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="controllers.view.pas"/>
+        <Caret Line="45" TopLine="36"/>
       </Position>
     </JumpHistory>
     <RunParams>
@@ -106,4 +169,29 @@
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="controllers.view.pas"/>
+        <Line Value="31"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="controllers.view.pas"/>
+        <Line Value="39"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="controllers.view.pas"/>
+        <Line Value="41"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>

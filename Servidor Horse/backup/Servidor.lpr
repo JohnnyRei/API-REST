@@ -8,17 +8,17 @@ uses
 
   Horse,
   Horse.Jhonson,
-  System.SysUtils,
-  u_dm,
+  SysUtils,
   unidac10,
   Controllers.View;
 
+
+
 begin
+    coInitialize(nil);
     THorse
-    .Use(Jhonson)
-    .Use(HandleException);
+    .Use(Jhonson);
     Controllers.View.Registry;
     THorse.Listen(9096);
   end.
 
-procedure List (Req: THorseRequest; Res: THorseResponse; Next: TProc);

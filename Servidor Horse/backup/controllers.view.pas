@@ -10,17 +10,41 @@ procedure Registry;
 
 implementation
 
-uses Horse, Horse.jhonson, u_dm, Dataset.Serialize;
+uses Horse, Horse.jhonson, Dataset.Serialize // horse
+  , uni, SQLServerUniProvider //Unidac
+  , ActiveX;
 
-procedure DoList (Req: THorseRequest; Res: THorseResponse; Next: TProc);
+procedure DoList(Req: THorseRequest; Res: THorseResponse; Next: TNextProc);
 var
-  LService: TDataModule1;
+  Connection: TUniConnection;
+  Query: TUniQuery;
 begin
-  LService := TDataModule1.Create(nil);
   try
-    Res.Send(Lservice.ListALL.ToJSONArray);
+    CoInitialize(nil);
+    Connection := TUniConnection.Create(nil);
+    Connection.ProviderName := 'SQL Server';
+    Connection.Port := 1433;
+    Connection.Server := '192.168.1.10';
+    Connection.Username := 'UBI';
+    Connection.Password := 'SBI';
+    Connection.Database := 'DBBI';
+    Connection.Open;
+
+
+    Query := TUniQuery.Create(nil);
+    Query.Connection := Connection;
+    Query.Close;
+    Query.SQL.Clear;
+    Query.SQL.Add('SELECT * FROM avfvAprovOvoGraInc_BI');
+    Query.Open;
+
+    Res.Send(Query.ToJSONArrayString);
   finally
-    LService.Free;
+    Query.Free;
+    Query := nil;
+    Connection.Free;
+    Connection := Nil;
+    CoUninitialize;
   end;
 end;
 
@@ -30,5 +54,5 @@ begin
   THorse.Get('/view', DoList);
 end;
 
-end.
 
+end.

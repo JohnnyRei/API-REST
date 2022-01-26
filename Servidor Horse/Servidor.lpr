@@ -9,16 +9,15 @@ uses
   Horse,
   Horse.Jhonson,
   SysUtils,
-  u_dm,
   unidac10,
   Controllers.View;
 
+
+
 begin
     THorse
-    .Use(Jhonson)
-    .Use(HandleException);
+    .Use(Jhonson);
     Controllers.View.Registry;
     THorse.Listen(9096);
   end.
 
-procedure List (Req: THorseRequest; Res: THorseResponse; Next: TProc);
