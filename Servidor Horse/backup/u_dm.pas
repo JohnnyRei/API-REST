@@ -50,6 +50,4 @@ function TDataModule1.ListALL: TUniQuery;
     result := qryView;
   end;
 
-{$R *.dfm}
-
 end.

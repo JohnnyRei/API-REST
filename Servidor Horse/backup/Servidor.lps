@@ -20,6 +20,7 @@
         <ComponentName Value="DataModule1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="22"/>
         <CursorPos X="51" Y="48"/>
@@ -28,23 +29,22 @@
         <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="C:\lazarus\components\UniDAC\Source\Lazarus1\msprovider10.pas"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="8"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
-      <Unit>
         <Filename Value="controllers.view.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Controllers.View"/>
-        <IsVisibleTab Value="True"/>
         <TopLine Value="12"/>
         <CursorPos X="42" Y="21"/>
         <UsageCount Value="36"/>
         <Loaded Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\components\UniDAC\Source\Lazarus1\msprovider10.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="16">
+    <JumpHistory HistoryIndex="13">
       <Position>
         <Filename Value="u_dm.pas"/>
       </Position>
@@ -81,20 +81,8 @@
         <Caret Line="12" Column="7" TopLine="6"/>
       </Position>
       <Position>
-        <Filename Value="controllers.view.pas"/>
-        <Caret Column="23" TopLine="11"/>
-      </Position>
-      <Position>
-        <Filename Value="controllers.view.pas"/>
-        <Caret Line="5" Column="41" TopLine="9"/>
-      </Position>
-      <Position>
         <Filename Value="u_dm.pas"/>
         <Caret Line="51" Column="7" TopLine="35"/>
-      </Position>
-      <Position>
-        <Filename Value="controllers.view.pas"/>
-        <Caret Line="13" Column="27" TopLine="16"/>
       </Position>
       <Position>
         <Filename Value="controllers.view.pas"/>

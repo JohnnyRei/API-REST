@@ -15,6 +15,7 @@ object DataModule1: TDataModule1
     EncryptedPassword = 'ACFFBDFFB6FF'
   end
   object qryView: TUniQuery
+    Connection = Connection
     SQL.Strings = (
       'SELECT * FROM avfvAprovOvoGraInc_BI'
     )

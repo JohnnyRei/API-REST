@@ -12,6 +12,9 @@ uses
   UniProvider, SQLServerUniProvider, ActiveX;
 
 type
+
+  { TDataModule1 }
+
   TDataModule1 = class(TDataModule)
     Connection: TUniConnection;
     qryView: TUniQuery;
