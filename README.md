@@ -1,6 +1,6 @@
 ## ⚡️API-REST
 API REST no Lazarus, utilizando o framework 🐴Horse.
-![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
+![GitHub Org's stars](https://img.shields.io/github/stars/JohnnyRei?style=social)
 
 <img src="https://media2.giphy.com/media/12DbQh5NOrhtN6/giphy.gif?cid=ecf05e47dtjto70529vw5rmb0421j8syr06lmpfrt9jlwzay&rid=giphy.gif&ct=g" />
 
