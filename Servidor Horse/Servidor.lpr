@@ -9,10 +9,14 @@ uses
   Horse,
   Horse.Jhonson,
   SysUtils,
-  unidac10,
-  Controllers.View;
+  unidac10, msprovider10,
+  Controllers.View, uDM;
 
 
+
+{$R *.res}
+
+var dm1 : TDM;
 
 begin
     THorse

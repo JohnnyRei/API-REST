@@ -1,0 +1,32 @@
+object DM: TDM
+  OldCreateOrder = True
+  Height = 211
+  HorizontalOffset = 256
+  VerticalOffset = 145
+  Width = 375
+  object UniConnection: TUniConnection
+    Connected = True
+    AfterDisconnect = UniConnectionAfterDisconnect
+    BeforeConnect = UniConnectionBeforeConnect
+    ProviderName = 'SQL Server'
+    Port = 1433
+    Database = 'DBBI'
+    Username = 'UBI'
+    Server = '192.168.1.10'
+    Left = 51
+    Top = 37
+    EncryptedPassword = 'ACFFBDFFB6FF'
+  end
+  object Query: TUniQuery
+    SQL.Strings = (
+      'SELECT * FROM avfvAprovOvoGraInc_BI'
+    )
+    FilterOptions = []
+    Left = 128
+    Top = 37
+  end
+  object SQLServerUniProvider: TSQLServerUniProvider
+    Left = 216
+    Top = 32
+  end
+end

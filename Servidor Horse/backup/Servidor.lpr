@@ -9,16 +9,21 @@ uses
   Horse,
   Horse.Jhonson,
   SysUtils,
-  unidac10,
-  Controllers.View;
+  unidac10, msprovider10,
+  Controllers.View, uDM;
 
 
+
+{$R *.res}
+
+var dm1 : TDM;
 
 begin
-    coInitialize(nil);
     THorse
     .Use(Jhonson);
     Controllers.View.Registry;
     THorse.Listen(9096);
+
+
   end.
 

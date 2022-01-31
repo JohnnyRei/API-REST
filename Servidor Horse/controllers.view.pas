@@ -11,40 +11,24 @@ procedure Registry;
 implementation
 
 uses Horse, Horse.jhonson, Dataset.Serialize // horse
-  , uni, SQLServerUniProvider //Unidac
+  , uni, SQLServerUniProvider, uDM //Unidac
   , ActiveX;
 
 procedure DoList(Req: THorseRequest; Res: THorseResponse; Next: TNextProc);
 var
-  Connection: TUniConnection;
-  Query: TUniQuery;
+  dm : TDM;
 begin
   try
-    CoInitialize(nil);
-    Connection := TUniConnection.Create(nil);
-    Connection.ProviderName := 'SQL Server';
-    Connection.Port := 1433;
-    Connection.Server := '192.168.1.10';
-    Connection.Username := 'UBI';
-    Connection.Password := 'SBI';
-    Connection.Database := 'DBBI';
-    Connection.Open;
-
-
-    Query := TUniQuery.Create(nil);
-    Query.Connection := Connection;
+    dm := TDM.Create(Nil);
+    with dm do
+    begin
     Query.Close;
-    Query.SQL.Clear;
-    Query.SQL.Add('SELECT * FROM avfvAprovOvoGraInc_BI');
     Query.Open;
-
     Res.Send(Query.ToJSONArrayString);
+    end;
+
   finally
-    Query.Free;
-    Query := nil;
-    Connection.Free;
-    Connection := nil;
-    CoUninitialize;
+  dm.Free;
   end;
 end;
 

@@ -14,6 +14,13 @@
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <Language Value="0416"/>
+      <StringTable Comments="API REST - Horse" FileDescription="Horse&apos;s API REST"/>
+    </VersionInfo>
     <BuildModes>
       <Item Name="Default" Default="True"/>
     </BuildModes>
@@ -26,6 +33,9 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="msprovider10"/>
+      </Item>
+      <Item>
         <PackageName Value="unidac10"/>
       </Item>
     </RequiredPackages>
@@ -35,16 +45,17 @@
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="u_dm.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="DataModule1"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="DataModule"/>
-      </Unit>
-      <Unit>
         <Filename Value="controllers.view.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Controllers.View"/>
+      </Unit>
+      <Unit>
+        <Filename Value="udm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DM"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="uDM"/>
       </Unit>
     </Units>
   </ProjectOptions>
