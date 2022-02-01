@@ -5,7 +5,15 @@
 		"github.com/hashload/horse": {
 			"name": "horse",
 			"version": "v2.0.14",
-			"hash": "38c6bebdc7b9712d6e5856d299289a26",
+			"hash": "fcfa02f87699b3551a3f22621615b40c",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-basic-auth": {
+			"name": "horse-basic-auth",
+			"version": "v1.1.8",
+			"hash": "f26d3f7f8236b5099d443ced5ad9fb48",
 			"artifacts": {},
 			"failed": false,
 			"changed": false

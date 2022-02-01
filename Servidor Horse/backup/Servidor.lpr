@@ -5,25 +5,30 @@ program Servidor;
 {$ENDIF}
 
 uses
-
-  Horse,
-  Horse.Jhonson,
   SysUtils,
-  unidac10, msprovider10,
-  Controllers.View, uDM;
+  Horse, Horse.Jhonson,Horse.BasicAuthentication, // horse
+  Controllers.View;
 
 
 
 {$R *.res}
 
-var dm1 : TDM;
+procedure OnListen(Horse: THorse);
+begin
+  Writeln(Format('Server is runing on port %d', [Horse.Port]));
+  Writeln(Format('API - Horse Avecom Sistema Ltda');
+end;
+
+function DoLogin(const AUsername, APassword: string): Boolean;
+begin
+  Result := AUsername.Equals('admin') and APassword.Equals('password');
+end;
 
 begin
     THorse
     .Use(Jhonson);
+     THorse.Use(HorseBasicAuthentication(DoLogin));
     Controllers.View.Registry;
-    THorse.Listen(9096);
-
-
+    THorse.Listen(8082,OnListen);
   end.
 

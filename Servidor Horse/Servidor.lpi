@@ -67,7 +67,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="modules\dataset-serialize\src;modules\horse\src;modules\jhonson\src"/>
+      <OtherUnitFiles Value="modules\.dcp;modules\.dcu;modules;modules\dataset-serialize\src;modules\horse\src;modules\horse-basic-auth\src;modules\jhonson\src"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
@@ -95,6 +95,9 @@
       </Item>
       <Item>
         <Name Value="EHTTP"/>
+      </Item>
+      <Item>
+        <Name Value="EHorseCallbackInterrupted"/>
       </Item>
     </Exceptions>
   </Debugging>

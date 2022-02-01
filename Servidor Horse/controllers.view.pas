@@ -3,38 +3,37 @@ unit Controllers.View;
 {$if defined(FPC)}
   {$mode delphi} {$h+}
 {$ENDIF}
-
 interface
 
 procedure Registry;
 
 implementation
 
-uses Horse, Horse.jhonson, Dataset.Serialize // horse
+uses SysUtils
+  , Horse, Horse.jhonson, Dataset.Serialize // horse
   , uni, SQLServerUniProvider, uDM //Unidac
   , ActiveX;
 
-procedure DoList(Req: THorseRequest; Res: THorseResponse; Next: TNextProc);
 var
-  dm : TDM;
+  DM : TDM;
+procedure DoList(Req: THorseRequest; Res: THorseResponse; Next: TNextProc);
 begin
   try
-    dm := TDM.Create(Nil);
-    with dm do
+    DM := TDM.Create(Nil);
+    with DM do
     begin
-    Query.Close;
-    Query.Open;
-    Res.Send(Query.ToJSONArrayString);
+      Query.Close;
+      Query.Open;
+      Res.Send(Query.ToJSONArrayString);
     end;
-
   finally
-  dm.Free;
+  FreeAndNil(DM);
   end;
 end;
 
-
 procedure Registry;
 begin
+
   THorse.Get('/view', DoList);
 end;
 
