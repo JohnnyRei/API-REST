@@ -96,6 +96,9 @@
       <Item>
         <Name Value="EHTTP"/>
       </Item>
+      <Item>
+        <Name Value="EHorseCallbackInterrupted"/>
+      </Item>
     </Exceptions>
   </Debugging>
 </CONFIG>
