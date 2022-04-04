@@ -9,10 +9,10 @@ object DM: TDM
     AfterDisconnect = UniConnectionAfterDisconnect
     BeforeConnect = UniConnectionBeforeConnect
     ProviderName = 'SQL Server'
-    Port = 1433
-    Database = 'DBBI'
-    Username = 'UBI'
-    Server = '192.168.1.10'
+    Port = 
+    Database = ''
+    Username = ''
+    Server = ''
     Left = 51
     Top = 37
     EncryptedPassword = 'ACFFBDFFB6FF'
